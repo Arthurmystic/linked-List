@@ -15,8 +15,8 @@ module.exports = {
 
   plugins: [
     new HtmlWebpackPlugin({
-      template: "./src/index.html", // UPDATE THIS IF HAVE AN HTML to the html file name
-      // title: 'production',  //OR Use this if u want webpack to generate a dynakic htmlfromm scratch
+      // template: "./src/linkedList.html", // UPDATE THIS IF HAVE AN HTML to the html file name
+      title: "production", //OR Use this if u want webpack to generate a dynakic htmlfromm scratch
     }),
   ],
 
